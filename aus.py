@@ -8,7 +8,7 @@ def main(actions):
     playerbalance = 10
     playername = input("ник: ")
     playermoney = int(input("ставка: "))
-    if playermoney < playerbalance:
+    if playermoney > playerbalance:
         print("ERORR BALANCE")  #
     else:
         rand = random.randint(1, 6)
